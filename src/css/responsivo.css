@@ -5,6 +5,7 @@
     }
 
     main .personagem .imagem {
+        object-fit: cover;
         height: 85%;
     }
 
@@ -38,8 +39,9 @@
 }
 
 @media (max-width: 425px) {
-    mai .personagem .imagem {
+    .personagem .imagem {
         height: auto;
+        object-fit: cover;
     }
 
     .conteudo .logo {
@@ -48,7 +50,7 @@
     }
 
     .conteudo {
-        top: -30%;
+        top: -40%;
     }
 
     .conteudo .nome-personagem {
@@ -60,8 +62,8 @@
         top: -20%;
     }
 
-    .botao .botao img {
-        max-width: 50px;
+    .botoes .botao img {
+        max-width: 70px;
 
     }
 }
